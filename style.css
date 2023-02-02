@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family:'dmsans' ;
+}
+@font-face {
+    font-family: dmsans;
+    src: url(./Outfit-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(27, 66%, 92%);
+}
+p{
+    margin: 3px;
+}
+.ph{
+    color: white;
+}
+#filho{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+#head{
+    position: relative;
+    padding: 10px;
+    border-radius: 13px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 390px;
+    height: 40px;
+    background-color:hsl(10, 79%, 65%) ;
+}
+#logo{
+    position: absolute;
+    display: inline-block;
+    right: 3%;
+    top: 10%;
+    
+
+}
+
+#tela{
+    position: relative;
+    border-radius: 12px;
+    margin: auto;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    padding: 18px;
+    
+    background-color:hsl(0, 18%, 96%);
+}
+.tag{
+    /* display: none; */
+    color: hsl(0, 18%, 96%);
+    background-color: hsl(0, 0%, 96%);
+    margin-left: -5px ;
+    width: 55px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+#pt{
+    padding-top: 5px;
+}
+.p1{
+    margin: 3px;
+    
+    
+    border-radius: 4px;
+    display: inline-block;
+    width: 40px;
+    height: 100px;
+    background-color: hsl(10, 79%, 65%);
+}
+.p2{
+    display: inline-block;
+}
+.sub-barra{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+/* #mon{
+    margin-left: 7px;
+} */
+/* #wed{
+    background-color: hsl(186, 34%, 60%);
+}
+#sat{
+    margin-left: 26px;
+}
+#fri{
+    margin-left: 24px;
+}
+#sun{
+    margin-left: 24px;
+} */
+input{
+    display: block;
+    width: 180px;
+}
+#barras{
+    margin-top: 90px;
+
+}
+#p1{
+    height: 30px;
+}
+#p2{height: 60px;}
+#p3{
+    height: 110px;
+    background-color: hsl(186, 34%, 60%);
+}
+#p4{height: 90px;}
+#p5{height: 60px;}
+#p6{height: 100px;}
+#p7{height: 70px;}
+
+hr{
+    margin-top: 20px;
+    background-color: rgb(250, 247, 247);
+}
+#total{
+    display: inline-block;
+}
+#per{
+    position: absolute;
+    display: inline-block;
+    right: 4%;
+}
+#total{
+    font-size: 50px;
+}
+#por{
+    margin-left: 60px;
+}
+
+/* on mouse hoover part */
+
+.p1:hover {
+    
+    background-color: hsl(10, 79%, 80%);
+}
+
+#p3:hover{
+    background-color: hsl(186, 34%, 70%);
+}
+
+
+
+
+
+
+
+
